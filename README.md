@@ -27,7 +27,7 @@ Then edit your `package.json`
 If you want to extend the configuration, you have to create your own `.prettierrc.js`.
 
 ```js
-import companyPrettierConfig from "@dipcode/prettier-config";
+import companyPrettierConfig from '@dipcode/prettier-config';
 
 export default {
   ...dipcodePrettierConfig,

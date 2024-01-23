@@ -30,13 +30,11 @@
     "*.{js,yml,json,md}": "npm run format"
   },
   "devDependencies": {
+    "@dipcode/prettier-config": "0.1.0",
     "husky": "8.0.3",
     "lint-staged": "15.2.0"
   },
   "peerDependencies": {
     "prettier": "^3.0.0"
-  },
-  "dependencies": {
-    "@dipcode/prettier-config": "^0.1.0"
   }
 }
