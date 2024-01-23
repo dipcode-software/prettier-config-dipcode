@@ -35,5 +35,8 @@
   },
   "peerDependencies": {
     "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "@dipcode/prettier-config": "^0.1.0"
   }
 }
