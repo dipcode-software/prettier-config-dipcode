@@ -20,14 +20,14 @@ Then edit your `package.json`
 ```json
 {
   // ...
-  "prettier": "@company/prettier-config"
+  "prettier": "@dipcode/prettier-config"
 }
 ```
 
 If you want to extend the configuration, you have to create your own `.prettierrc.js`.
 
 ```js
-import companyPrettierConfig from '@dipcode/prettier-config';
+import dipcodePrettierConfig from '@dipcode/prettier-config';
 
 export default {
   ...dipcodePrettierConfig,
