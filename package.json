@@ -1,0 +1,40 @@
+{
+  "name": "@dipcode/prettier-config",
+  "version": "0.1.0",
+  "description": "Shareable Prettier config for Dipcode.",
+  "main": "index.json",
+  "scripts": {
+    "prettier:base": "prettier './**/*.{js,yml,json,md}'",
+    "lint": "npm run prettier:base -- --check",
+    "format": "npm run prettier:base -- --write",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipcode-software/prettier-config-dipcode.git"
+  },
+  "keywords": [
+    "prettier",
+    "prettierconfig",
+    "prettier-config",
+    "dipcode"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dipcode-software/prettier-config-dipcode/issues"
+  },
+  "homepage": "https://github.com/dipcode-software/prettier-config-dipcode#readme",
+  "prettier": "@dipcode/prettier-config",
+  "lint-staged": {
+    "*.{js,yml,json,md}": "npm run format"
+  },
+  "devDependencies": {
+    "husky": "8.0.3",
+    "lint-staged": "15.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  }
+}
